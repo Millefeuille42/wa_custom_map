@@ -132,7 +132,7 @@
                  "name":"silentZone",
                  "opacity":1,
                  "type":"tilelayer",
-                 "visible":true,
+                 "visible":false,
                  "width":40,
                  "x":0,
                  "y":0
@@ -176,7 +176,7 @@
                  "name":"clockZone",
                  "opacity":1,
                  "type":"tilelayer",
-                 "visible":true,
+                 "visible":false,
                  "width":40,
                  "x":0,
                  "y":0
@@ -220,7 +220,7 @@
                  "name":"jitsiZone",
                  "opacity":1,
                  "type":"tilelayer",
-                 "visible":true,
+                 "visible":false,
                  "width":40,
                  "x":0,
                  "y":0
@@ -264,7 +264,7 @@
                  "name":"bbbMeeting",
                  "opacity":1,
                  "type":"tilelayer",
-                 "visible":true,
+                 "visible":false,
                  "width":40,
                  "x":0,
                  "y":0
@@ -308,12 +308,14 @@
                  "name":"gameZone",
                  "opacity":1,
                  "type":"tilelayer",
-                 "visible":true,
+                 "visible":false,
                  "width":40,
                  "x":0,
                  "y":0
                 }],
          "name":"Zones",
+         "offsetx":8,
+         "offsety":2.66666666666667,
          "opacity":1,
          "type":"group",
          "visible":true,
@@ -758,22 +760,17 @@
                  "class":"area",
                  "height":190.333333333333,
                  "id":16,
-                 "name":"bbbMeetingRoom",
+                 "name":"jitsiMainMeetingRoom",
                  "properties":[
-                        {
-                         "name":"bbbMeeting",
-                         "type":"string",
-                         "value":" f6ac159e-0c01-4c2e-bf40-10e01e07ec11 "
-                        }, 
                         {
                          "name":"focusable",
                          "type":"bool",
                          "value":false
                         }, 
                         {
-                         "name":"meetingName",
+                         "name":"jitsiRoom",
                          "type":"string",
-                         "value":"Salle de r\u00e9union"
+                         "value":"MainMeetingRoom"
                         }, 
                         {
                          "name":"zoom_margin",
@@ -911,11 +908,6 @@
                          "value":"https:\/\/skribbl.io"
                         }, 
                         {
-                         "name":"openTabTrigger",
-                         "type":"string",
-                         "value":"onicon"
-                        }, 
-                        {
                          "name":"zoom_margin",
                          "type":"float",
                          "value":1
@@ -1027,12 +1019,12 @@
         {
          "name":"mapCopyright",
          "type":"string",
-         "value":"Credits: Valdo Romao https:\/\/www.linkedin.com\/in\/valdo-romao\/ \nLicense: CC-BY-SA 3.0 (http:\/\/creativecommons.org\/licenses\/by-sa\/3.0\/)"
+         "value":"Credits: Millefeuille42 < https:\/\/github.com\/Millefeuille42 >"
         }, 
         {
          "name":"mapDescription",
          "type":"string",
-         "value":"A perfect virtual office to get started with WorkAdventure!"
+         "value":"A custom map for a small office in WorkAdventure"
         }, 
         {
          "name":"mapImage",
@@ -1042,12 +1034,12 @@
         {
          "name":"mapLink",
          "type":"string",
-         "value":"https:\/\/thecodingmachine.github.io\/workadventure-map-starter-kit\/map.json"
+         "value":"https:\/\/github.com\/Millefeuille42\/map-entreprise"
         }, 
         {
          "name":"mapName",
          "type":"string",
-         "value":"Office"
+         "value":"SmallOffice"
         }, 
         {
          "name":"script",
