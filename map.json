@@ -1045,6 +1045,11 @@
          "name":"script",
          "type":"string",
          "value":"src\/main.ts"
+        }, 
+        {
+         "name":"tilesetCopyright",
+         "type":"string",
+         "value":"LimeZu <https:\/\/limezu.itch.io\/>"
         }],
  "renderorder":"right-down",
  "tiledversion":"1.9.2",
@@ -1198,6 +1203,12 @@
          "imagewidth":480,
          "margin":0,
          "name":"Room_Builder_Floors_32x32",
+         "properties":[
+                {
+                 "name":"tilesetCopyright",
+                 "type":"string",
+                 "value":"LimeZu <https:\/\/limezu.itch.io\/>"
+                }],
          "spacing":0,
          "tilecount":600,
          "tileheight":32,
@@ -1211,6 +1222,12 @@
          "imagewidth":1024,
          "margin":0,
          "name":"Room_Builder_Walls_32x32",
+         "properties":[
+                {
+                 "name":"tilesetCopyright",
+                 "type":"string",
+                 "value":"LimeZu <https:\/\/limezu.itch.io\/>"
+                }],
          "spacing":0,
          "tilecount":1280,
          "tileheight":32,
@@ -1224,6 +1241,12 @@
          "imagewidth":1344,
          "margin":0,
          "name":"Room_Builder_Floor_Paths_32x32",
+         "properties":[
+                {
+                 "name":"tilesetCopyright",
+                 "type":"string",
+                 "value":"LimeZu <https:\/\/limezu.itch.io\/>"
+                }],
          "spacing":0,
          "tilecount":504,
          "tileheight":32,
@@ -1237,6 +1260,12 @@
          "imagewidth":1440,
          "margin":0,
          "name":"Room_Builder_borders_32x32",
+         "properties":[
+                {
+                 "name":"tilesetCopyright",
+                 "type":"string",
+                 "value":"LimeZu <https:\/\/limezu.itch.io\/>"
+                }],
          "spacing":0,
          "tilecount":450,
          "tileheight":32,
@@ -1250,6 +1279,12 @@
          "imagewidth":224,
          "margin":0,
          "name":"Room_Builder_Floor_Connectors_32x32",
+         "properties":[
+                {
+                 "name":"tilesetCopyright",
+                 "type":"string",
+                 "value":"LimeZu <https:\/\/limezu.itch.io\/>"
+                }],
          "spacing":0,
          "tilecount":252,
          "tileheight":32,
@@ -1263,6 +1298,12 @@
          "imagewidth":512,
          "margin":0,
          "name":"18_Jail_32x32",
+         "properties":[
+                {
+                 "name":"tilesetCopyright",
+                 "type":"string",
+                 "value":"LimeZu <https:\/\/limezu.itch.io\/>"
+                }],
          "spacing":0,
          "tilecount":720,
          "tileheight":32,
@@ -1276,6 +1317,12 @@
          "imagewidth":512,
          "margin":0,
          "name":"19_Hospital_32x32",
+         "properties":[
+                {
+                 "name":"tilesetCopyright",
+                 "type":"string",
+                 "value":"LimeZu <https:\/\/limezu.itch.io\/>"
+                }],
          "spacing":0,
          "tilecount":1760,
          "tileheight":32,
@@ -1289,6 +1336,12 @@
          "imagewidth":512,
          "margin":0,
          "name":"1_Generic_32x32",
+         "properties":[
+                {
+                 "name":"tilesetCopyright",
+                 "type":"string",
+                 "value":"LimeZu <https:\/\/limezu.itch.io\/>"
+                }],
          "spacing":0,
          "tilecount":1248,
          "tileheight":32,
@@ -1302,6 +1355,12 @@
          "imagewidth":512,
          "margin":0,
          "name":"4_Bedroom_32x32",
+         "properties":[
+                {
+                 "name":"tilesetCopyright",
+                 "type":"string",
+                 "value":"LimeZu <https:\/\/limezu.itch.io\/>"
+                }],
          "spacing":0,
          "tilecount":1712,
          "tileheight":32,
